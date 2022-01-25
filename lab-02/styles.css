@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+header h1 {
+  padding: 0 0.5em;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  background-color: darkslateblue;
+  flex-shrink: 0;
+}
+nav a {
+  background-color: bisque;
+  color: black;
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 0.25em;
+  transition: background-color 0.3s;
+}
+nav a:hover {
+  background-color: burlywood;
+}
+header, main, section {
+  overflow: auto;
+}
+main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+header {
+  background-color: darkslategrey;
+  color: white;
+}
+section {
+  background-color: coral;
+  width: 90vw;
+}
+section p, h2 {
+  padding: 0 0.5em;
+}
